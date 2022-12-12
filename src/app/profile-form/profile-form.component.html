@@ -1,0 +1,32 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h3>Profile-Form : </h3>
+            <form [formGroup]="profileForm" (ngSubmit)="submitData()">
+
+                <label for="name" class="form-label">Name : </label>
+                <input type="text" name="name" id="name" class="form-control mb-3" formControlName="name">
+
+                <label for="email" class="form-label">Email : </label>
+                <input type="email" name="email" id="email" class="form-control mb-3" formControlName="email">
+
+                <label for="age" class="form-label">Age : </label>
+                <input type="number" name="age" id="age" class="form-control" formControlName="age">
+                <!-- <div id="emailHelp" class="form-text text-danger mb-3" *ngIf="age.invalid && age.dirty">
+                        Age is must be between 18-30
+                    </div> -->
+
+                <div id="emailHelp" class="form-text text-danger mb-3" *ngIf="age.invalid && age.dirty">
+                    <span *ngIf="age.errors!['min']">Min age must be 18</span>
+                    <span *ngIf="age.errors!['max']">Max age must be 30</span>
+
+                </div>
+
+                <button class="btn btn-primary mt-3" type="submit" [disabled]="profileForm.invalid">Submit</button>
+                <br>
+                
+            </form>
+        </div>
+    </div>
+</div>

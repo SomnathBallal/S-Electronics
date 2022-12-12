@@ -1,0 +1,164 @@
+
+
+[
+    {
+      "id":1,
+      "name":"Samsung Galaxy Book",
+      "brand":"Samsung",
+      "rating":5,
+      "price":31990,
+      "discription":"Samsung Galaxy Book Go 2nd Gen Snapdragon 7c Windows 11 Home Thin and Light Laptop (4GB RAM, 128GB SSD, Qualcomm Adreno Graphics, MS Office, 35.56cm, NP340XLA-KA1IN, Silver)",
+      "img":"assets/img/Laptops/Lap-1.png"
+    },
+
+    {
+      "id":2,
+      "name":"Samsung Galaxy Book2",
+      "brand":"Samsung",
+      "rating":4,
+      "price":102590,
+      "discription":"Samsung Galaxy Book2 Pro Core i5 12th Gen Windows 11 Home Thin and Light Laptop (Intel Evo, 16GB RAM, 512GB SSD, Intel Iris Xe Graphics, MS Office, 33.78cm, NP930XED-KB3IN, Silver)",
+      "img":"assets/img/Laptops/Lap-3.png"
+    },
+
+    {
+      "id":3,
+      "name":"LG gram 11th Gen",
+      "brand":"LG",
+      "rating":4.5,
+      "price":95990,
+      "discription":"LG gram 11th Gen Core i7 Windows 10 Home Thin and Light Laptop (Intel Evo, 16GB RAM, 512GB SSD, Intel Iris Xe Graphics, 43.2cm, 17Z90P-G.AH76A2, Silver)",
+      "img":"assets/img/Laptops/Lap-6.png"
+    },
+
+    {
+      "id":4,
+      "name":"Lenovo IdeaPad 3",
+      "brand":"Lenovo",
+      "rating":3,
+      "price":30990,
+      "discription":"Lenovo IdeaPad 3 15IML05 10th Gen Core i3 Windows 11 Thin and Light (8GB RAM, 1TB HDD, Intel UHD Graphics, MS Office, 39.62cm, 81WB01D6IN, Platinum Grey)",
+      "img":"assets/img/Laptops/Lap-7.png"
+    },
+
+    {
+      "id":5,
+      "name":"Lenovo Slim 3 11th Gen",
+      "brand":"Lenovo",
+      "rating":5,
+      "price":31990,
+      "discription":"Lenovo Slim 3 11th Gen Core i3 Windows 11 Home Thin and Light (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.6cm, 81X700DWIN, Platinum Grey)",
+      "img":"assets/img/Laptops/Lap-9.png"
+    },
+
+    {
+      "id":6,
+      "name":"Oppo A96",
+      "brand":"Oppo",
+      "rating":2.5,
+      "price":19999,
+      "discription":"Oppo A96 (128GB ROM, 8GB RAM, Starry Black)",
+      "img":"assets/img/Laptops/Lap-1.png"
+    },
+
+    {
+      "id":7,
+      "name":"Lenovo IdeaPad Slim 3 10th Gen",
+      "brand":"Lenovo",
+      "rating":4.5,
+      "price":31490,
+      "discription":"Lenovo IdeaPad Slim 3 10th Gen Core i3 Windows 11 Thin and Light Laptop (8GB RAM, 1TB HDD, AMD Radeon Graphics, MS Office, 39.6cm, 81WB0192IN, Platinum Grey)",
+      "img":"assets/img/Laptops/Lap-3.png"
+    },
+
+    {
+      "id":8,
+      "name":"Lenovo IdeaPad Slim 3 10th Gen",
+      "brand":"Lenovo",
+      "rating":2,
+      "price":32490,
+      "discription":"Lenovo IdeaPad Slim 3 10th Gen Core i3 Windows 11 Home Thin and Light Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.6cm, 81WB018EIN, Platinum Grey)",
+      "img":"assets/img/Laptops/Lap-6.png"
+    }  ,  
+
+    {
+      "id":9,
+      "name":"Apple Macbook Pro M1",
+      "brand":"Apple",
+      "rating":3.5,
+      "price":219990,
+      "discription":"Apple Macbook Pro M1 Mac OS Monterey MacBook (16GB RAM, 1TB SSD, 36.7cm, MKGT3HN/A, Silver)",
+      "img":"assets/img/Laptops/Lap-7.png"
+    },
+
+    {
+      "id":10,
+      "name":"Apple MacBook Pro 16",
+      "brand":"Apple",
+      "rating":3.4,
+      "price":239990,
+      "discription":"Apple MacBook Pro 16 M1 Pro Chip macOS Monterey Laptop (16GB RAM, 1TB SSD, M1 GPU, 41.05cm, MK193HN/A, Space Grey)",
+      "img":"assets/img/Laptops/Lap-9.png"
+    },
+
+    {
+      "id":11,
+      "name":"Apple MacBook Pro 14",
+      "brand":"Apple",
+      "rating":1,
+      "price":181490,
+      "discription":"Apple MacBook Pro 14 M1 Pro chip macOS Monterey Laptop (16GB RAM, 512GB SSD, Apple M1 GPU, 35.97 cm, Space Grey)",
+      "img":"assets/img/Laptops/Lap-1.png"
+    },
+
+    {
+      "id":12,
+      "name":"Apple MacBook Pro",
+      "brand":"Apple",
+      "rating":3.4,
+      "price":149900,
+      "discription":"Apple MacBook Pro (MNEQ3HN/A) M2 Chip Laptop (8GB RAM, 512GB SSD, Apple M2 GPU, 33.02cm, Silver)",
+      "img":"assets/img/Laptops/Lap-3.png"
+    },
+    
+    {
+      "id":13,
+      "name":"Apple MacBook Pro",
+      "brand":"Apple",
+      "rating":5,
+      "price":149900,
+      "discription":"Apple MacBook Pro (MNEJ3HN/A) M2 Chip Laptop (8GB RAM, 512GB SSD, Apple M2 GPU, 33.02cm, Space Grey)",
+      "img":"assets/img/Laptops/Lap-6.png"
+    },
+
+    {
+      "id":14,
+      "name":"Apple MacBook Pro",
+      "brand":"Apple",
+      "rating":4.5,
+      "price":149900,
+      "discription":"Apple MacBook Pro (MNEJ3HN/A) M2 Chip Laptop (8GB RAM, 512GB SSD, Apple M2 GPU, 33.02cm, Space Grey)",
+      "img":"assets/img/Laptops/Lap-7.png"
+    },
+
+    {
+      "id":15,
+      "name":"Apple MacBook Pro",
+      "brand":"Apple",
+      "rating":4,
+      "price":129900,
+      "discription":"Apple MacBook Pro (MNEJ3HN/A) M2 Chip Laptop (8GB RAM, 256GB SSD, Apple M2 GPU, 33.02cm, Silver)",
+      "img":"assets/img/Laptops/Lap-9.png"
+    },
+
+    {
+      "id":16,
+      "name":"Apple MacBook Air M2",
+      "brand":"Apple",
+      "rating":3,
+      "price":149900,
+      "discription":"Apple MacBook Air M2 Chip Mac OS Laptop (8GB RAM, 512GB SSD, M2 Discrete Graphics, 34.46cm, MLXX3HN/A, Space Grey)",
+      "img":"assets/img/Laptops/Lap-1.png"
+    }
+
+   ]

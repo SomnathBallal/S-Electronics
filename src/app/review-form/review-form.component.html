@@ -1,0 +1,28 @@
+<form (ngSubmit)="submitData()">
+    <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" aria-describedby="namelHelp" [(ngModel)]="fm.name"
+            required>
+
+        <label for="email" class="form-label mt-3">Email Address:</label>
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+            [(ngModel)]="fm.email" required>
+    </div>
+    <label for="rating" class="form-label">Select Rating:</label>
+    <select class="form-select" aria-label="Default select example" id="rating" name="rating" [(ngModel)]="fm.rating"
+        required>
+        <option selected>0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <label for="review" class="form-label mt-3">Your Kind Words:</label>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="review" name="review"
+            style="height: 100px" [(ngModel)]="fm.review" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>

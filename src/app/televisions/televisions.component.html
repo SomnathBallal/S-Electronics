@@ -1,0 +1,39 @@
+<div class="container-fluid bg-black blank-div"></div>
+<div class="container-fluid bg-black ">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let Televisions of televisions| slice:start_index:end_index">
+            <div class="card" style="width: 16rem;">
+                <img [src]="Televisions.img" class="card-img" alt="{{Televisions.brand}}" [routerLink]="['/televisions',Televisions.id]"
+                    style="cursor:pointer;">
+                <div class="card-body">
+                    <h4 class="card-title" [title]="Televisions.name">
+                        {{Televisions.name.length>7?
+                        (Televisions.discription|slice:0:7)+"...":Televisions.name}}</h4>
+                    <h5 class="card-text">{{Televisions.brand}}</h5>
+                    <p class="mb-1">
+                        <app-star [title]="Televisions.rating" [start_rating]="Televisions.rating"
+                            (value)="displayChildData($event)"></app-star>
+                    </p>
+                    <p class="card-text">{{Televisions.price|currency:"INR"}}</p>
+                    <p class="card-text" [title]="Televisions.discription">{{Televisions.discription.length>34?
+                        (Televisions.discription|slice:0:34)+"...":Televisions.discription}}</p>
+                    <a style="cursor:pointer;" class="btn btn-primary" (click)="addToCart()">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- pagination code -->
+
+<nav aria-label="...">
+    <ul class="pagination pagination-sm justify-content-end">
+        <li class="page-item active" aria-current="page" (click)="nextPage(1)">
+            <span class="page-link" style="cursor:pointer">1</span>
+        </li>
+        <li class="page-item"><a class="page-link" style="cursor:pointer" (click)="nextPage(2)">2</a></li>
+        <li class="page-item"><a class="page-link" style="cursor:pointer" (click)="nextPage(3)">3</a></li>
+    </ul>
+</nav>

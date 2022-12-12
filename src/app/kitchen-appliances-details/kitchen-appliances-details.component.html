@@ -1,0 +1,33 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-6">
+            <div *ngIf="fetchedKitchen$|async as Kitchen; else noProduct">
+                <div class="card" style="width: 20rem;">
+                    <img [src]="Kitchen.img" class="card-img mt-3" alt="{{Kitchen.brand}}">
+                    <div class="card-body">
+                        <h4 [routerLink]="['/kitchen-appliances',Kitchen.id]" class="card-title" [title]="Kitchen.name"
+                            style="cursor:pointer;">
+                            {{Kitchen.name.length>7?
+                            (Kitchen.discription|slice:0:14)+"...":Kitchen.name}}</h4>
+                        <h5 class="card-text">{{Kitchen.brand}}</h5>
+                        <p class="mb-1">
+                            <app-star></app-star>
+                        </p>
+                        <p class="card-text">{{Kitchen.price|currency:"INR"}}</p>
+                        <p class="card-text" [title]="Kitchen.discription">{{Kitchen.discription.length>34?
+                            (Kitchen.discription|slice:0:34)+"...":Kitchen.discription}}</p>
+                        <a style="cursor:pointer;" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ng-template #noProduct>
+            <h1>No Products Available for this ID.</h1>
+        </ng-template>
+        <div class="col-lg-6">
+            <h4>Review Form</h4>
+            <app-review-form></app-review-form>
+        </div>
+
+    </div>
+</div>

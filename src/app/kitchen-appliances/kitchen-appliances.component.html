@@ -1,0 +1,39 @@
+<div class="container-fluid bg-black blank-div"></div>
+<div class="container-fluid bg-black ">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let kitchens of kitchen| slice:start_index:end_index">
+            <div class="card" style="width: 16rem;">
+                <img [src]="kitchens.img" class="card-img" alt="{{kitchens.brand}}" [routerLink]="['/kitchen-appliances',kitchens.id]"
+                    style="cursor:pointer;">
+                <div class="card-body">
+                    <h4 class="card-title" [title]="kitchens.name">
+                        {{kitchens.name.length>7?
+                        (kitchens.discription|slice:0:7)+"...":kitchens.name}}</h4>
+                    <h5 class="card-text">{{kitchens.brand}}</h5>
+                    <p class="mb-1">
+                        <app-star [title]="kitchens.rating" [start_rating]="kitchens.rating"
+                            (value)="displayChildData($event)"></app-star>
+                    </p>
+                    <p class="card-text">{{kitchens.price|currency:"INR"}}</p>
+                    <p class="card-text" [title]="kitchens.discription">{{kitchens.discription.length>34?
+                        (kitchens.discription|slice:0:34)+"...":kitchens.discription}}</p>
+                    <a style="cursor:pointer;" class="btn btn-primary" (click)="addToCart()">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- pagination code -->
+
+<nav aria-label="...">
+    <ul class="pagination pagination-sm justify-content-end">
+        <li class="page-item active" aria-current="page" (click)="nextPage(1)">
+            <span class="page-link" style="cursor:pointer">1</span>
+        </li>
+        <li class="page-item"><a class="page-link" style="cursor:pointer" (click)="nextPage(2)">2</a></li>
+        <li class="page-item"><a class="page-link" style="cursor:pointer" (click)="nextPage(3)">3</a></li>
+    </ul>
+</nav>

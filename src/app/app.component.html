@@ -1,0 +1,51 @@
+<!-- navigation code start -->
+<nav class="navbar navbar-expand-lg bg-black sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" [routerLink]="['/home']"><i class="bi bi-shop"></i></a>
+    <a class="navbar-brand text-white" [routerLink]="['/home']">{{title}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" [routerLink]="['/phones']">Mobiles</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/laptops']">Laptops</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/televisions']">Televisions</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/Kitchen-Appliances']">Kitchen Appliances</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/Helth-and-Fitness']">Helth and Fitness</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ac tive text-white" aria-current="page" [routerLink]="['/profile-form']">Login</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="phone_name"
+          name="searchByName" (input)="filtername($event)">
+
+        <button class="btn btn-outline-success me-2" type="submit" name="searchByName">Search</button>
+        <p>{{phone_name}}</p>
+      </form>
+      <!-- cart code -->
+      <button type="button" class="btn btn-primary position-relative me-2" (click)="showCartValue()">
+        <i class="bi bi-cart-check"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          {{cv}}
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
+      <!-- cart code end -->
+    </div>
+  </div>
+</nav>
+<!-- navigation code end -->
+
+
+<router-outlet></router-outlet>

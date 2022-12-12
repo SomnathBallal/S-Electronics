@@ -1,0 +1,34 @@
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-6">
+            <div *ngIf="fetched_product$ |async as product; else noProduct">
+                <div class="card" style="width: 20rem;">
+                    <img [src]="product.img" class="card-img mt-3" alt="{{product.brand}}">
+                    <div class="card-body">
+                        <h4 [routerLink]="['/phones',product.id]" class="card-title" [title]="product.name"
+                            style="cursor:pointer;">
+                            {{product.name.length>7?
+                            (product.discription|slice:0:7)+"...":product.name}}</h4>
+                        <h5 class="card-text">{{product.brand}}</h5>
+                        <p class="mb-1">
+                            <app-star></app-star>
+                        </p>
+                        <p class="card-text">{{product.price|currency:"INR"}}</p>
+                        <p class="card-text" [title]="product.discription">{{product.discription.length>34?
+                            (product.discription|slice:0:34)+"...":product.discription}}</p>
+                        <a style="cursor:pointer;" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ng-template #noProduct>
+            <h1>No Products Available for this ID.</h1>
+        </ng-template>
+        <div class="col-lg-6">
+            <h4>Review Form</h4>
+            <app-review-form></app-review-form>
+        </div>
+
+    </div>
+</div>

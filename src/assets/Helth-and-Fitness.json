@@ -1,0 +1,164 @@
+
+
+[
+    {
+      "id":1,
+      "name":"PowerMax 4HP",
+      "brand":"PowerMax",
+      "rating":5,
+      "price":39999,
+      "discription":"PowerMax 4HP Foldable Motorized Treadmill (Diamond Wave Running Belt with 15 Level Auto Inclination, MT-1A, Blue)",
+      "img":"assets/img/Helth and Fitness/Helth-1.png"
+    },
+
+    {
+      "id":2,
+      "name":"PowerMax Captain America",
+      "brand":"PowerMax",
+      "rating":4,
+      "price":42999,
+      "discription":"PowerMax Captain America Edition 2.0HP Foldable Motorized Treadmill (Hydraulic Softdrop System (HSS), MTA-2300, Blue)",
+      "img":"assets/img/Helth and Fitness/Helth-2.png"
+    },
+
+    {
+      "id":3,
+      "name":"Powermax Ironman",
+      "brand":"Powermax",
+      "rating":4.5,
+      "price":37990,
+      "discription":"PPowermax Ironman 4 HP Foldable Motorized Treadmill (Hi-Fi Speaker, MT-1M, Red)",
+      "img":"assets/img/Helth and Fitness/Helth-3.png"
+    },
+
+    {
+      "id":4,
+      "name":"PowerMax Iron Man Fitness Cycle",
+      "brand":"PowerMax",
+      "rating":5,
+      "price":16999,
+      "discription":"PowerMax Iron Man Fitness Cycle (Anti-bacterial Powder Coat Finish, MB-145, Red)",
+      "img":"assets/img/Helth and Fitness/Helth-7.png"
+    },
+
+    {
+      "id":5,
+      "name":"PowerMax Dumbbells",
+      "brand":"PowerMax",
+      "rating":4,
+      "price":9990,
+      "discription":"PowerMax Dumbbells Set (Chrome Iron Body, PDS-30C, Silver)",
+      "img":"assets/img/Helth and Fitness/Helth-9.png"
+    },
+
+    {
+        "id":6,
+        "name":"PowerMax 4HP",
+      "brand":"PowerMax",
+      "rating":5,
+      "price":39999,
+      "discription":"PowerMax 4HP Foldable Motorized Treadmill (Diamond Wave Running Belt with 15 Level Auto Inclination, MT-1A, Blue)",
+      "img":"assets/img/Helth and Fitness/Helth-1.png"
+    },
+
+    {
+      "id":7,
+      "name":"PowerMax Captain America",
+      "brand":"PowerMax",
+      "rating":4,
+      "price":42999,
+      "discription":"PowerMax Captain America Edition 2.0HP Foldable Motorized Treadmill (Hydraulic Softdrop System (HSS), MTA-2300, Blue)",
+      "img":"assets/img/Helth and Fitness/Helth-2.png"
+    },
+
+    {
+      "id":8,
+      "name":"Powermax Ironman",
+      "brand":"Powermax",
+      "rating":4.5,
+      "price":37990,
+      "discription":"PPowermax Ironman 4 HP Foldable Motorized Treadmill (Hi-Fi Speaker, MT-1M, Red)",
+      "img":"assets/img/Helth and Fitness/Helth-3.png"
+    }  ,  
+
+    {
+      "id":9,
+      "name":"PowerMax Iron Man Fitness Cycle",
+      "brand":"PowerMax",
+      "rating":5,
+      "price":16999,
+      "discription":"PowerMax Iron Man Fitness Cycle (Anti-bacterial Powder Coat Finish, MB-145, Red)",
+      "img":"assets/img/Helth and Fitness/Helth-7.png"
+    },
+
+    {
+      "id":10,
+      "name":"PowerMax Dumbbells",
+      "brand":"PowerMax",
+      "rating":4,
+      "price":9990,
+      "discription":"PowerMax Dumbbells Set (Chrome Iron Body, PDS-30C, Silver)",
+      "img":"assets/img/Helth and Fitness/Helth-9.png"
+    },
+
+    {
+      "id":11,
+      "name":"PowerMax 4HP",
+      "brand":"PowerMax",
+      "rating":5,
+      "price":39999,
+      "discription":"PowerMax 4HP Foldable Motorized Treadmill (Diamond Wave Running Belt with 15 Level Auto Inclination, MT-1A, Blue)",
+      "img":"assets/img/Helth and Fitness/Helth-1.png"
+    },
+
+    {
+      "id":12,
+      "name":"PowerMax Captain America",
+      "brand":"PowerMax",
+      "rating":4,
+      "price":42999,
+      "discription":"PowerMax Captain America Edition 2.0HP Foldable Motorized Treadmill (Hydraulic Softdrop System (HSS), MTA-2300, Blue)",
+      "img":"assets/img/Helth and Fitness/Helth-2.png"
+    },
+    
+    {
+      "id":13,
+      "name":"Powermax Ironman",
+      "brand":"Powermax",
+      "rating":4.5,
+      "price":37990,
+      "discription":"PPowermax Ironman 4 HP Foldable Motorized Treadmill (Hi-Fi Speaker, MT-1M, Red)",
+      "img":"assets/img/Helth and Fitness/Helth-3.png"
+    },
+
+    {
+      "id":14,
+      "name":"PowerMax Iron Man Fitness Cycle",
+      "brand":"PowerMax",
+      "rating":5,
+      "price":16999,
+      "discription":"PowerMax Iron Man Fitness Cycle (Anti-bacterial Powder Coat Finish, MB-145, Red)",
+      "img":"assets/img/Helth and Fitness/Helth-7.png"
+    },
+
+    {
+      "id":15,
+      "name":"PowerMax Dumbbells",
+      "brand":"PowerMax",
+      "rating":4,
+      "price":9990,
+      "discription":"PowerMax Dumbbells Set (Chrome Iron Body, PDS-30C, Silver)",
+      "img":"assets/img/Helth and Fitness/Helth-9.png"
+    },
+
+    {
+      "id":16,
+      "name":"PowerMax 4HP",
+      "brand":"PowerMax",
+      "rating":5,
+      "price":39999,
+      "discription":"PowerMax 4HP Foldable Motorized Treadmill (Diamond Wave Running Belt with 15 Level Auto Inclination, MT-1A, Blue)",
+      "img":"assets/img/Helth and Fitness/Helth-1.png"
+    }
+
+   ]

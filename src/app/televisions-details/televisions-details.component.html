@@ -1,0 +1,33 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-6">
+            <div *ngIf="fetchedTelevision$|async as Televisions; else noProduct">
+                <div class="card" style="width: 20rem;">
+                    <img [src]="Televisions.img" class="card-img mt-3" alt="{{Televisions.brand}}">
+                    <div class="card-body">
+                        <h4 [routerLink]="['/televisions',Televisions.id]" class="card-title" [title]="Televisions.name"
+                            style="cursor:pointer;">
+                            {{Televisions.name.length>7?
+                            (Televisions.discription|slice:0:14)+"...":Televisions.name}}</h4>
+                        <h5 class="card-text">{{Televisions.brand}}</h5>
+                        <p class="mb-1">
+                            <app-star></app-star>
+                        </p>
+                        <p class="card-text">{{Televisions.price|currency:"INR"}}</p>
+                        <p class="card-text" [title]="Televisions.discription">{{Televisions.discription.length>34?
+                            (Televisions.discription|slice:0:34)+"...":Televisions.discription}}</p>
+                        <a style="cursor:pointer;" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ng-template #noProduct>
+            <h1>No Products Available for this ID.</h1>
+        </ng-template>
+        <div class="col-lg-6">
+            <h4>Review Form</h4>
+            <app-review-form></app-review-form>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,164 @@
+
+
+[
+    {
+      "id":1,
+      "name":"OnePlus Nord",
+      "brand":"OnePlus",
+      "rating":5,
+      "price":19999,
+      "discription":"OnePlus Nord CE2 Lite 5G (128GB ROM, 6GB RAM, 5011102008, Black Dusk)",
+      "img":"assets/img/Phones/Mob-2.png"
+    },
+
+    {
+      "id":2,
+      "name":"Samsung Galaxy",
+      "brand":"Samsung",
+      "rating":4,
+      "price":15499,
+      "discription":"Samsung Galaxy F42 5G (128GB ROM, 6GB RAM, SM-E426BZAGINS, Matte Black) | With Fast Charger",
+      "img":"assets/img/Phones/Mob-9.png"
+    },
+
+    {
+      "id":3,
+      "name":"OnePlus 9",
+      "brand":"OnePlus",
+      "rating":4.5,
+      "price":42999,
+      "discription":"OnePlus 9 5G (256GB ROM, 12GB RAM, LE2111, Astral Black)",
+      "img":"assets/img/Phones/Mob-2.png"
+    },
+
+    {
+      "id":4,
+      "name":"OnePlus Nord",
+      "brand":"OnePlus",
+      "rating":3,
+      "price":19999,
+      "discription":"OnePlus Nord CE2 Lite 5G (128GB ROM, 6GB RAM, 5011102008, Black Dusk)",
+      "img":"assets/img/Phones/Mob-2.png"
+    },
+
+    {
+      "id":5,
+      "name":"Apple iPhone 13",
+      "brand":"Apple",
+      "rating":5,
+      "price":70990,
+      "discription":"Apple iPhone 13 (128GB ROM, 4GB RAM, MLPJ3HN/A, (Product)Red)",
+      "img":"assets/img/Phones/Mob-9.png"
+    },
+
+    {
+      "id":6,
+      "name":"Oppo A96",
+      "brand":"Oppo",
+      "rating":2.5,
+      "price":19999,
+      "discription":"Oppo A96 (128GB ROM, 8GB RAM, Starry Black)",
+      "img":"assets/img/Phones/Mob-2.png"
+    },
+
+    {
+      "id":7,
+      "name":"Apple iPhone 13",
+      "brand":"Apple",
+      "rating":4.5,
+      "price":72990,
+      "discription":"Apple iPhone 13 (128GB ROM, 4GB RAM, MLPG3HN/A, Starlight White)",
+      "img":"assets/img/Phones/Mob-9.png"
+    },
+
+    {
+      "id":8,
+      "name":"OnePlus 9 Pro",
+      "brand":"OnePlus",
+      "rating":2,
+      "price":49999,
+      "discription":"OnePlus 9 Pro 5G (128GB ROM, 8GB RAM, LE2121_IN, Morning Mist)",
+      "img":"assets/img/Phones/Mob-2.png"
+    }  ,  
+
+    {
+      "id":9,
+      "name":"Apple iPhone 13",
+      "brand":"Apple",
+      "rating":3.5,
+      "price":70990,
+      "discription":"Apple iPhone 13 (128GB ROM, 4GB RAM, MLPJ3HN/A, (Product)Red)",
+      "img":"assets/img/Phones/Mob-9.png"
+    },
+
+    {
+      "id":10,
+      "name":"Oppo A96",
+      "brand":"Oppo",
+      "rating":3.4,
+      "price":19999,
+      "discription":"Oppo A96 (128GB ROM, 8GB RAM, Starry Black)",
+      "img":"assets/img/Phones/Mob-2.png"
+    },
+
+    {
+      "id":11,
+      "name":"Apple iPhone 13",
+      "brand":"Apple",
+      "rating":1,
+      "price":72990,
+      "discription":"Apple iPhone 13 (128GB ROM, 4GB RAM, MLPG3HN/A, Starlight White)",
+      "img":"assets/img/Phones/Mob-9.png"
+    },
+
+    {
+      "id":12,
+      "name":"OnePlus 9 Pro",
+      "brand":"OnePlus",
+      "rating":3.4,
+      "price":49999,
+      "discription":"OnePlus 9 Pro 5G (128GB ROM, 8GB RAM, LE2121_IN, Morning Mist)",
+      "img":"assets/img/Phones/Mob-2.png"
+    },
+    
+    {
+      "id":13,
+      "name":"OnePlus Nord",
+      "brand":"OnePlus",
+      "rating":5,
+      "price":19999,
+      "discription":"OnePlus Nord CE2 Lite 5G (128GB ROM, 6GB RAM, 5011102008, Black Dusk)",
+      "img":"assets/img/Phones/Mob-2.png"
+    },
+
+    {
+      "id":14,
+      "name":"Samsung Galaxy",
+      "brand":"Samsung",
+      "rating":4.5,
+      "price":15499,
+      "discription":"Samsung Galaxy F42 5G (128GB ROM, 6GB RAM, SM-E426BZAGINS, Matte Black) | With Fast Charger",
+      "img":"assets/img/Phones/Mob-9.png"
+    },
+
+    {
+      "id":15,
+      "name":"OnePlus 9",
+      "brand":"OnePlus",
+      "rating":4,
+      "price":42999,
+      "discription":"OnePlus 9 5G (256GB ROM, 12GB RAM, LE2111, Astral Black)",
+      "img":"assets/img/Phones/Mob-2.png"
+    },
+
+    {
+      "id":16,
+      "name":"OnePlus Nord",
+      "brand":"OnePlus",
+      "rating":3,
+      "price":19999,
+      "discription":"OnePlus Nord CE2 Lite 5G (128GB ROM, 6GB RAM, 5011102008, Black Dusk)",
+      "img":"assets/img/Phones/Mob-9.png"
+    }
+
+   ]

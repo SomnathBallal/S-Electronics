@@ -1,0 +1,163 @@
+
+
+[
+    {
+      "id":1,
+      "name":"Maharaja Whiteline",
+      "brand":"Maharaja",
+      "rating":5,
+      "price":4449,
+      "discription":"Maharaja Whiteline Ultramax Elite 750 Watts 4 Jars Mixer Grinder (Superior Cooling, MX-222",
+      "img":"assets/img/Kitchen Appliances/Kitchen-6.png"
+    },
+
+    {
+      "id":2,
+      "name":"Instant Vortex",
+      "brand":"Instant",
+      "rating":4,
+      "price":9990,
+      "discription":"Instant Vortex Plus 5.7 Litres Air Fryer Oven (One-Step EvenCrisp, INSTAF6QT, Silver)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-8.png"
+    },
+
+    {
+      "id":3,
+      "name":"Philips Avance",
+      "brand":"Philips",
+      "rating":4.5,
+      "price":13890,
+      "discription":"Philips Avance Collection 750 Watts 4 Jars Mixer Grinder (3-Step Blade Technology, HL7777/00, Metallic Silver/Bold Black)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-9.png"
+    },
+
+    {
+      "id":4,
+      "name":"Bosch TrueMixx",
+      "brand":"Bosch",
+      "rating":5,
+      "price":5680,
+      "discription":"Bosch TrueMixx Bold 750 Watts 4 Jars Mixer Grinder (Stone Pounding Technology, MGM6644WIN, White)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-10.png"
+    },
+
+    {
+      "id":5,
+      "name":"Instant Vortex",
+      "brand":"Instant",
+      "rating":4,
+      "price":9990,
+      "discription":"Instant Vortex Plus 5.7 Litres Air Fryer Oven (One-Step EvenCrisp, INSTAF6QT, Silver)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-8.png"
+    },
+
+    {
+        "name":"Philips Avance",
+        "brand":"Philips",
+        "rating":4.5,
+        "price":13890,
+        "discription":"Philips Avance Collection 750 Watts 4 Jars Mixer Grinder (3-Step Blade Technology, HL7777/00, Metallic Silver/Bold Black)",
+        "img":"assets/img/Kitchen Appliances/Kitchen-9.png"
+    },
+
+    {
+      "id":7,
+      "name":"Bosch TrueMixx",
+      "brand":"Bosch",
+      "rating":5,
+      "price":5680,
+      "discription":"Bosch TrueMixx Bold 750 Watts 4 Jars Mixer Grinder (Stone Pounding Technology, MGM6644WIN, White)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-10.png"
+    },
+
+    {
+      "id":8,
+      "name":"Maharaja Whiteline",
+      "brand":"Maharaja",
+      "rating":5,
+      "price":4449,
+      "discription":"Maharaja Whiteline Ultramax Elite 750 Watts 4 Jars Mixer Grinder (Superior Cooling, MX-222",
+      "img":"assets/img/Kitchen Appliances/Kitchen-6.png"
+    }  ,  
+
+    {
+      "id":9,
+      "name":"Maharaja Whiteline",
+      "brand":"Maharaja",
+      "rating":5,
+      "price":4449,
+      "discription":"Maharaja Whiteline Ultramax Elite 750 Watts 4 Jars Mixer Grinder (Superior Cooling, MX-222",
+      "img":"assets/img/Kitchen Appliances/Kitchen-6.png"
+    },
+
+    {
+      "id":10,
+      "name":"Instant Vortex",
+      "brand":"Instant",
+      "rating":4,
+      "price":9990,
+      "discription":"Instant Vortex Plus 5.7 Litres Air Fryer Oven (One-Step EvenCrisp, INSTAF6QT, Silver)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-8.png"
+    },
+
+    {
+      "id":11,
+      "name":"Philips Avance",
+      "brand":"Philips",
+      "rating":4.5,
+      "price":13890,
+      "discription":"Philips Avance Collection 750 Watts 4 Jars Mixer Grinder (3-Step Blade Technology, HL7777/00, Metallic Silver/Bold Black)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-9.png"
+    },
+
+    {
+      "id":12,
+      "name":"Bosch TrueMixx",
+      "brand":"Bosch",
+      "rating":5,
+      "price":5680,
+      "discription":"Bosch TrueMixx Bold 750 Watts 4 Jars Mixer Grinder (Stone Pounding Technology, MGM6644WIN, White)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-10.png"
+    },
+    
+    {
+      "id":13,
+      "name":"Maharaja Whiteline",
+      "brand":"Maharaja",
+      "rating":5,
+      "price":4449,
+      "discription":"Maharaja Whiteline Ultramax Elite 750 Watts 4 Jars Mixer Grinder (Superior Cooling, MX-222",
+      "img":"assets/img/Kitchen Appliances/Kitchen-6.png"
+    },
+
+    {
+      "id":14,
+      "name":"Instant Vortex",
+      "brand":"Instant",
+      "rating":4,
+      "price":9990,
+      "discription":"Instant Vortex Plus 5.7 Litres Air Fryer Oven (One-Step EvenCrisp, INSTAF6QT, Silver)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-8.png"
+    },
+
+    {
+      "id":15,
+      "name":"Philips Avance",
+      "brand":"Philips",
+      "rating":4.5,
+      "price":13890,
+      "discription":"Philips Avance Collection 750 Watts 4 Jars Mixer Grinder (3-Step Blade Technology, HL7777/00, Metallic Silver/Bold Black)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-9.png"
+    },
+
+    {
+      "id":16,
+      "name":"Bosch TrueMixx",
+      "brand":"Bosch",
+      "rating":5,
+      "price":5680,
+      "discription":"Bosch TrueMixx Bold 750 Watts 4 Jars Mixer Grinder (Stone Pounding Technology, MGM6644WIN, White)",
+      "img":"assets/img/Kitchen Appliances/Kitchen-10.png"
+    }
+
+   ]

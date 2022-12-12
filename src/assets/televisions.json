@@ -1,0 +1,164 @@
+
+
+[
+    {
+      "id":1,
+      "name":"LG C2X 121cm",
+      "brand":"LG",
+      "rating":5,
+      "price":114391,
+      "discription":"LG C2X 121cm (48 Inch) Ultra HD 4K OLED Smart TV (Dolby Vision IQ with Dolby Atmos Technology, OLED48C2XSA, Black)",
+      "img":"assets/img/Televisions/Tel-1.png"
+    },
+
+    {
+      "id":2,
+      "name":"Sony 164cm",
+      "brand":"Sony",
+      "rating":4,
+      "price":118740,
+      "discription":"Sony 164cm (65 Inch) Ultra HD 4K LED Android Smart TV (Dolby Atmos and Dolby Vision, KD-65X80K, Black)",
+      "img":"assets/img/Televisions/Tel-2.png"
+    },
+
+    {
+      "id":3,
+      "name":"Sony Bravia 108cm",
+      "brand":"Sony",
+      "rating":4.5,
+      "price":70290,
+      "discription":"Sony Bravia 108cm (43 Inch) 4K Ultra HD LED Smart TV (Built-in Chromecast, KD-43X80K, Black)",
+      "img":"assets/img/Televisions/Tel-4.png"
+    },
+
+    {
+      "id":4,
+      "name":"Candy KA66 80cm ",
+      "brand":"Candy",
+      "rating":3,
+      "price":12990,
+      "discription":"Candy KA66 80cm (32 Inch) LED HD Ready Smart TV (Android 9.0, C32KA66, Black)",
+      "img":"assets/img/Televisions/Tel-5.png"
+    },
+
+    {
+      "id":5,
+      "name":"Candy KA66 109cm",
+      "brand":"Candy",
+      "rating":5,
+      "price":21989,
+      "discription":"Candy KA66 109cm (43 Inch) LED Full HD Smart TV (Android 9.0, C43KA66, Black)",
+      "img":"assets/img/Televisions/Tel-6.png"
+    },
+
+    {
+      "id":6,
+      "name":"TCL S Series 83cm",
+      "brand":"TCL",
+      "rating":2.5,
+      "price":14490,
+      "discription":"TCL S Series 83cm (32 Inch) HD Ready LED Android Smart TV (Dolby Audio, 32S5205, Black)",
+      "img":"assets/img/Televisions/Tel-1.png"
+    },
+
+    {
+      "id":7,
+      "name":"TCL S Series 83cm",
+      "brand":"TCL",
+      "rating":4.5,
+      "price":14990,
+      "discription":"TCL S Series 83cm (32 Inch) HD Ready LED Android Smart TV (Dolby Audio, 32S615, Black)",
+      "img":"assets/img/Televisions/Tel-2.png"
+    },
+
+    {
+      "id":8,
+      "name":"SONY 125.7cm",
+      "brand":"SONY",
+      "rating":2,
+      "price":79790,
+      "discription":"SONY 125.7cm (50 Inch) Ultra HD 4K LED Smart TV (X1 4K HDR Processor with Dolby Atmos, KD-50X80K, Black)",
+      "img":"assets/img/Televisions/Tel-4.png"
+    }  ,  
+
+    {
+      "id":9,
+      "name":"Sony Bravia XR 163.9cm",
+      "brand":"Sony",
+      "rating":3.5,
+      "price":170990,
+      "discription":"Sony Bravia XR 163.9cm (65 Inch) 4K Ultra HD LED Smart TV (Built-in Chromecast, XR-65X90K, Black)",
+      "img":"assets/img/Televisions/Tel-5.png"
+    },
+
+    {
+      "id":10,
+      "name":"SONY 138.8cm",
+      "brand":"SONY",
+      "rating":3.4,
+      "price":123490,
+      "discription":"SONY 138.8cm (55 Inch) Ultra HD 4K LED Smart TV (Full Array LED with XR Contrast Booster and Dolby Atmos, XR-55X90K, Black)",
+      "img":"assets/img/Televisions/Tel-6.png"
+    },
+
+    {
+      "id":11,
+      "name":"TCL 190.5cm",
+      "brand":"TCL",
+      "rating":1,
+      "price":228990,
+      "discription":"TCL 190.5cm (75 Inch) 4K Ultra HD QLED Smart TV (Dolby Vision IQ, 75C835, Black)",
+      "img":"assets/img/Televisions/Tel-1.png"
+    },
+
+    {
+      "id":12,
+      "name":"TCL C Series 190.5cm",
+      "brand":"TCL",
+      "rating":3.4,
+      "price":149900,
+      "discription":"TCL C Series 190.5cm (75 Inch) 4K Ultra HD QLED Smart TV (Google Duo Supported, 75C635, Black)",
+      "img":"assets/img/Televisions/Tel-2.png"
+    },
+    
+    {
+      "id":13,
+      "name":"TCL 139.7cm",
+      "brand":"TCL",
+      "rating":5,
+      "price":149900,
+      "discription":"TCL 139.7cm (55 Inch) 4K Ultra HD QLED Smart TV (Dolby Vision IQ, 55C835, Black)",
+      "img":"assets/img/Televisions/Tel-4.png"
+    },
+
+    {
+      "id":14,
+      "name":"Apple MacBook Pro",
+      "brand":"Apple",
+      "rating":4.5,
+      "price":118990,
+      "discription":"Apple MacBook Pro (MNEJ3HN/A) M2 Chip Laptop (8GB RAM, 512GB SSD, Apple M2 GPU, 33.02cm, Space Grey)",
+      "img":"assets/img/Televisions/Tel-5.png"
+    },
+
+    {
+      "id":15,
+      "name":"TCL 165.1cm",
+      "brand":"TCL",
+      "rating":4,
+      "price":129900,
+      "discription":"TCL 165.1cm (65 Inch) 4K Ultra HD Smart TV (Google Duo Supported, 65P735, Black)",
+      "img":"assets/img/Televisions/Tel-6.png"
+    },
+
+    {
+      "id":16,
+      "name":"TCL 127cm",
+      "brand":"TCL",
+      "rating":3,
+      "price":149900,
+      "discription":"TCL 127cm (50 Inch) 4K Ultra HD QLED Smart TV (Google Duo Supported, 50P735, Black)",
+      "img":"assets/img/Televisions/Tel-1.png"
+    }
+
+   ]
